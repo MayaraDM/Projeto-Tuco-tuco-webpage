@@ -177,3 +177,41 @@ footer address {
 main .member1 {
     display: flex;
 }
+
+/* about_tuco */
+.all-species .species-container {
+    display: flex;
+    flex-direction: row;
+}
+.species-container .species-bio {
+    width: 50%;
+    text-align: center;
+}
+.species-container .species-image {
+    width: 50%;
+}
+.all-species .species-container:nth-child(even) {
+    flex-direction: row-reverse;
+}
+.species-bio span {
+    font-style: italic;
+}
+.species-container #flamarioni {
+    background-image: linear-gradient(60deg, #fff3c3 0%, #efe1b4 100%);
+}
+
+.species-container #minutus {
+    background-image: linear-gradient(60deg, #c1d3e9 0%, #afc4d9 100%);
+}
+
+.species-container #lami {
+    background-image: linear-gradient(60deg, #fec87e 0%, #ebb76b 100%);
+}
+
+.species-container #ibicuiensis {
+    background-image: linear-gradient(60deg, #ffe4d9 0%, #ebc9b0 100%);
+}
+
+.species-container #torquatus {
+    background-image: linear-gradient(60deg, #7ebf85 0%, #70a976 100%);
+}
